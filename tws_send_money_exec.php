@@ -22,8 +22,7 @@ include "tws_functions.php";
   
    $rows = mysqli_affected_rows($dbh);    // TEST
    
-$msg='send_money';
-header("Location: tws_final_page.php?msg=$msg");
+header("Location: tws_final_page.php?msg=send_money");
 
 }
 ?>
